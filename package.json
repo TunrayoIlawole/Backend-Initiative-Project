@@ -1,0 +1,21 @@
+{
+  "name": "task-one",
+  "version": "1.0.0",
+  "description": "CRUD API with endpoints for users, movies and rentals",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app",
+    "start": "node src/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TunrayoIlawole/Backend-Initiative-Project.git"
+  },
+  "author": "Motunrayo Ilawole",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
